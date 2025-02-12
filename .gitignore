@@ -1,0 +1,47 @@
+# 🚀 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# 🚀 Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# 🚀 Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 🚀 Redis Cache Files (Optional)
+*.rdb
+*.log
+
+# 🚀 CKEditor Uploads
+ckeditor_uploads/
+
+# 🚀 VS Code Settings (Optional)
+.vscode/
+
+# 🚀 Environment Variables
+.env
+.env.*
+
+# 🚀 MacOS System Files
+.DS_Store
+
+# 🚀 Migrations (Optional for Clean Repos)
+*/migrations/*.py
+*/migrations/*.pyc
